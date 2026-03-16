@@ -2,7 +2,7 @@ Flask
 gunicorn
 medigan
 numpy
-opencv-python
+opencv-contrib-python-headless
 Pillow
 setuptools
 wheel
