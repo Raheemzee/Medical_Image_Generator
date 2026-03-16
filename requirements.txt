@@ -6,4 +6,3 @@ opencv-contrib-python-headless
 Pillow
 setuptools
 wheel
-pkg_resources
