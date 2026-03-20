@@ -39,7 +39,7 @@ def index():
         model_id = MODEL_MAP.get(selected_model_name)
         if model_id:
             # Directly generate images with model_id
-            images = generators.generate(model_id=model_id, num_samples=num_samples, install_dependencies=False)
+            images = generators.generate(model_id=model_id, num_samples=num_samples, install_dependencies=True)
 
             # Save images
             for i, img in enumerate(images):
