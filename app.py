@@ -11,9 +11,7 @@ generators = Generators()
 # Map human-readable names to Medigan model IDs
 MODEL_MAP = {
     "Mammogram Calcifications": "00001_DCGAN_MMG_CALC_ROI",
-    "Mammogram Masses": "00002_DCGAN_MMG_MASS_ROI",
-    "Chest X-ray Lung Nodules": "00017_DCGAN_XRAY_LUNG_NODULES",
-    "Cardiac Aging": "00022_WGAN_CARDIAC_AGING"
+    "Mammogram Masses": "00002_DCGAN_MMG_MASS_ROI"
 }
 
 # Folder for generated images
